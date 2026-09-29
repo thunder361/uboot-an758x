@@ -2,7 +2,6 @@
 
 #include "an7581-u-boot.dtsi"
 #include "an758x-recovery-layout-u-boot.dtsi"
-#include "an758x-status-led-u-boot.dtsi"
 
 status_led: &{/leds/led-0} {
 };
