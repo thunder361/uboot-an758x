@@ -8,22 +8,6 @@ status_led: &{/leds/led-0} {
 
 #include "an758x-status-led-u-boot.dtsi"
 
-&recovery_layout {
-	bosa {
-		volume-name = "bosa";
-		volume-size = <0x40000>;
-		volume-type = "dynamic";
-		bootph-all;
-	};
-
-	ri {
-		volume-name = "ri";
-		volume-size = <0x40000>;
-		volume-type = "dynamic";
-		bootph-all;
-	};
-};
-
 &gdm1 {
 	status = "okay";
 	bootph-all;
