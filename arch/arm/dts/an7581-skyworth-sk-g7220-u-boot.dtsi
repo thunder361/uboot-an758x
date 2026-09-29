@@ -3,9 +3,6 @@
 #include "an7581-u-boot.dtsi"
 #include "an758x-recovery-layout-u-boot.dtsi"
 
-status_led: &{/leds/led-0} {
-};
-
 &recovery_layout {
 	factory {
 		volume-name = "factory";
