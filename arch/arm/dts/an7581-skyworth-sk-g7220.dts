@@ -1,18 +1,17 @@
 // SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
+/dts-v1/;
+
+/* BL2 and TF-A reserve the first 2 MiB of DRAM. */
+/memreserve/ 0x80000000 0x200000;
 
 #include <dt-bindings/gpio/gpio.h>
 #include <dt-bindings/input/input.h>
 #include "en7581.dtsi"
 
-/* BL2 and TF-A reserve the first 2 MiB of DRAM. */
-/memreserve/ 0x80000000 0x200000;
-
-/dts-v1/;
 
 / {
 	model = "SKYWORTH SK-G7220";
 	compatible = "skyworth,sk-g7220", "airoha,an7581", "airoha,en7581";
-};
 
 	aliases {
 		serial0 = &uart1;
