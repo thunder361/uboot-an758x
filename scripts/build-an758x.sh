@@ -66,6 +66,12 @@ hm2004-du)
 	soc=EN7581
 	parallel_nand=0
 	;;	
+sk-g7220)
+	defconfig=an7581_skyworth_sk-g7220_defconfig
+	artifact_prefix=an7581-skyworth-sk-g7220
+	soc=EN7581
+	parallel_nand=0
+	;;	
 xg2010g)
 	defconfig=an7581_gemtek_xg2010g_defconfig
 	artifact_prefix=an7581-gemtek-xg2010g
