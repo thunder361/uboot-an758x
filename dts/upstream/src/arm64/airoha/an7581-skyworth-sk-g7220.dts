@@ -55,7 +55,7 @@
 };
 
 &spi_nand {
-	compatible = "winbond,w25n04kv", "spi-nand";
+	compatible = "winbond,w25n02kv", "spi-nand";
 
 	partitions {
 		compatible = "fixed-partitions";
