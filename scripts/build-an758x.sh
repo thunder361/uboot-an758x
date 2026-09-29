@@ -5,7 +5,7 @@ set -eu
 usage()
 {
 	cat >&2 <<'EOF'
-usage: build-an758x.sh <hg5382a|hg5585f-ct|hg5585f-cu|hm2004-du|xg2010g|xr1710g|zn504xg-d|zn515xg-d|ung00a|xg-040g-md|xg-040g-tf|xg-040g-mf>
+usage: build-an758x.sh <hg5382a|hg5585f-ct|hg5585f-cu|hm2004-du|sk-g7220|xg2010g|xr1710g|zn504xg-d|zn515xg-d|ung00a|xg-040g-md|xg-040g-tf|xg-040g-mf>
 
 Required environment:
   CROSS_COMPILE         AArch64 toolchain prefix
