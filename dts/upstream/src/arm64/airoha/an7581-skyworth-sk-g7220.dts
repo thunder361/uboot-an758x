@@ -79,7 +79,3 @@
 &eth {
 	status = "okay";
 };
-
-&gdm1 {
-	status = "okay";
-};
