@@ -80,5 +80,6 @@
 };
 
 &gdm1 {
+	/* Recovery and TFTP use the internal switch CPU port. */
 	status = "okay";
 };
