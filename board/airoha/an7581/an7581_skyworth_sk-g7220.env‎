@@ -7,3 +7,5 @@ bootfile_fip=an7581-skyworth-sk-g7220-bl31-u-boot.fip
 bootfile_upg=immortalwrt-airoha-an7581-skyworth_sk-g7220-squashfs-sysupgrade.itb
 bootled_status=green:power
 bootmenu_title=U-Boot SK-G7220
+mtdids=nand0=nand0
+mtdparts=mtdparts=nand0:128k(bl2),-(ubi)
