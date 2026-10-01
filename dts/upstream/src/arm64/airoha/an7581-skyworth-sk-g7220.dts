@@ -76,10 +76,11 @@
 	};
 };
 
-&gdm1 {
+&eth {
 	status = "okay";
 };
 
-&eth {
+&gdm1 {
+	/* Recovery and TFTP use the internal switch CPU port. */
 	status = "okay";
 };
